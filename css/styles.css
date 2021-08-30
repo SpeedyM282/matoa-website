@@ -286,13 +286,13 @@ h1 {
 }
 
 .inner-third-cont-box {
-  /* border: black 1px solid; */
   width: 16%;
   height: 100%;
   background-color: white;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  transition: 0.2s ease-out 100ms;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.04);
 }
 
